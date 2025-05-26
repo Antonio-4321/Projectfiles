@@ -1,0 +1,21 @@
+h4{
+    color: blueviolet;
+    text-align: center;
+}
+#id1{
+    color: aquamarine;
+    text-align: left;
+}
+.box{
+    border: 3px solid blue;
+    margin: 50px;
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    padding: 100px;
+    background-color: aquamarine;
+}
+.tb{
+    border-collapse: collapse;
+}
