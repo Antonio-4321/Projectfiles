@@ -1,0 +1,137 @@
+/* 🎨 Intensified Animated Background for All Pages */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease-in-out infinite;
+}
+
+/* 🧊 Stylish, Unified Component Containers */
+.admind,
+.userd,
+.login-container,
+.addproducts,
+.adminproducts,
+.cart,
+.products {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  margin: 40px auto;
+  max-width: 1000px;
+  transform: translateZ(0);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* 🪄 Dynamic Lift on Hover */
+.admind:hover,
+.userd:hover,
+.login-container:hover,
+.addproducts:hover,
+.adminproducts:hover,
+.cart:hover,
+.products:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+/* 🧭 Navigation Bars */
+.tb1, .tb2 {
+  background-color: #3f51b5;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 12px 12px;
+}
+
+/* 🔠 Section Headings */
+h2 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 30px;
+}
+
+/* 💳 Material UI Cards */
+.MuiCard-root {
+  border-radius: 16px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s ease;
+  margin: 16px;
+  background-color: #ffffff;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.03);
+}
+
+/* ✍️ Typography Inside Cards */
+.cart h3,
+.products h3,
+.adminproducts h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.cart p,
+.products p {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* 🛍 Product Grid */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* 🧾 Form Fields and Buttons */
+.MuiTextField-root,
+.MuiButton-root {
+  border-radius: 10px !important;
+}
+
+/* 📋 Forms Layout */
+.login-container .MuiTextField-root,
+.addproducts .MuiTextField-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-container .MuiButton-root,
+.addproducts .MuiButton-root {
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* 🎛 Admin Orders Page Enhancements */
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.user-button {
+  background-color: #3f51b5 !important;
+  color: #fff !important;
+  padding: 10px 24px !important;
+  border-radius: 10px !important;
+  transition: transform 0.3s ease;
+}
+
+.user-button:hover {
+  background-color: #303f9f !important;
+  transform: scale(1.05);
+}
